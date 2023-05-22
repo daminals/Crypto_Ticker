@@ -181,25 +181,9 @@ int bitstamp_watcher_recv(WATCHER *wp, char *txt) {
     return 1;
   }
 
-  // int dev_null = open("/dev/null", O_WRONLY);
-  // int stderr_fd = dup2(STDERR_FILENO, 1000);
-  // dup2(dev_null, STDERR_FILENO);
-
   // read the input stream as a JSON value
   ARGO_VALUE *json_argo_v = argo_read_value(json_stream);
-
-  // // restore stderr from the dup
-  // dup2(stderr_fd, STDERR_FILENO);
-
-  // // close dup fd's
-  // close(stderr_fd);
-  // close(dev_null);
-
-  // if (json_argo_v == NULL) {
-  //   // if the text is not valid JSON code, then return 1
-  //   error("ERROR: %s",json_buffer);
-  // }
-
+  
   fclose(json_stream);
   free(json_buffer);
 
