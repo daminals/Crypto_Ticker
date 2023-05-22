@@ -1,5 +1,5 @@
 ![github repo badge: Language](https://img.shields.io/badge/Language-C-181717?color=blue) ![github repo badge: OS](https://img.shields.io/badge/OS-Linux-181717?color=yellow)
-# Crypto_Ticker
+# Crypto Ticker
 An asynchronous web watcher utilizing signals to track cryptocurrencies
 
 ## Introduction
