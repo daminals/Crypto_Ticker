@@ -1,3 +1,5 @@
+/* the following debug file was created by Professor Eugene Stark as part of CSE 320 */
+
 #ifndef DEBUG_H
 #define DEBUG_H
 
