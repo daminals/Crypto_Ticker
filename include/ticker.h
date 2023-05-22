@@ -1,7 +1,5 @@
-/*
- * DO NOT MODIFY THE CONTENTS OF THIS FILE.
- * IT WILL BE REPLACED DURING GRADING
- */
+/* the following file was created by Professor Eugene Stark as part of CSE 320 */
+
 #ifndef TICKER_H
 #define TICKER_H
 
