@@ -1,8 +1,3 @@
-/*
- * DO NOT MODIFY THE CONTENTS OF THIS FILE.
- * IT WILL BE REPLACED DURING GRADING
- */
-
 #include <stdio.h>
 
 #include "ticker.h"
