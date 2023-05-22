@@ -3,6 +3,8 @@
 
 #include "ticker.h"
 
+/* the following test cases are created by Professor Eugene Stark as part of CSE 320 */
+
 /*
  * These tests are very basic "blackbox" tests designed to mostly exercise
  * startup and shutdown of the program.
